@@ -1,10 +1,8 @@
-# Kanban-plan for "Min Helseassistent"
-
-Denne repoen inneholder en enkel prosjektplan for caset "Min Helseassistent". Se `docs/PLAN.md` for:
-
-- Oppsummering av kravene i caset.
-- Fire hovedoppgaver (epics) som deler opp leveransen.
-- Et Kanban-oppsett for oppgaven "Helse- og symptomlogg" med tydelige verifikasjonskriterier.
-- Milepæler, avhengigheter og teststrategi.
-
-Planen kan importeres til et GitHub Project-board ved å legge hvert kort inn i tilsvarende kolonne.
+| Kolonne | Kort | Beskrivelse | Test/Verifikasjon |
+| --- | --- | --- | --- |
+| **Backlog** | UX-LOGG-01 | Skisser registreringsflyt og skjemaer. | Wireframes signert av produktansvarlig. |
+| **Backlog** | DATA-LOGG-02 | Definer datamodell for helseoppføringer. | Enhetstester dekker feltvalidering. |
+| **Klar til å starte** | API-LOGG-03 | Avklar lagring (lokalt/sky) og API-kontrakter. | Godkjent teknisk design-notat. |
+| **I arbeid** | UI-LOGG-04 | Implementer skjerm for symptomregistrering med validering. | Manuell test: registrere og se oppsummering. |
+| **Under test** | TEST-LOGG-05 | Lag automatiserte tester (enhet + integrasjon). | Kommando `npm test logbook` passerer. |
+| **Utført** | DOC-LOGG-06 | Oppdater dokumentasjon og release-notat. | Pull request godkjent og merget. |
