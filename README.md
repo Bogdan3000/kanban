@@ -1,5 +1,5 @@
 | Todo                 | In Progress                          | Test                                  | Done                                  |
 |----------------------|---------------------------------------|---------------------------------------|---------------------------------------|
-| UX-LOGG-01: Skisser skjermbilder for registrering av vaner | UI-LOGG-04: Implementer skjerm for symptomregistrering med validering | TEST-LOGG-05: Lag automatiserte tester (enhet + integrasjon) | DOC-LOGG-06: Oppdater dokumentasjon og release-notat |
-| DATA-LOGG-02: Definer datamodell for helseoppføringer     |                                       |                                       |                                       |
+|  | UI-LOGG-04: Implementer skjerm for symptomregistrering med validering | TEST-LOGG-05: Lag automatiserte tester (enhet + integrasjon) | DOC-LOGG-06: Oppdater dokumentasjon og release-notat |
+| DATA-LOGG-02: Definer datamodell for helseoppføringer     |UX-LOGG-01: Skisser skjermbilder for registrering av vaner|                                       |                                       |
 | API-LOGG-03: Avklar lagring (lokalt/sky) og API-kontrakter |                                       |                                       |                                       |
